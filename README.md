@@ -1,11 +1,11 @@
-squidlog
+squid2radius
 ========
 
-squidlog is a tool to analyzes your squid `access.log` file, display the usage information or send to a RADIUS server using `Accounting-Request` as defined in RFC 2866.
+squid2radius is a tool to analyzes your squid `access.log` file, display the usage information or send to a RADIUS server using `Accounting-Request` as defined in RFC 2866.
 
 It may call squid to rotate your log file so that no lines will be counted more than once.
 
-Forked from Jiehan Zheng's [squid2radius](https://github.com/jiehanzheng/squid2radius).
+Forked from Bill Zhong's [squidlog](https://github.com/billzhong/squidlog).
 
 Installation
 ------------
@@ -13,7 +13,7 @@ Installation
 ### Clone Git repo
 
 ```bash
-git clone git://github.com/billzhong/squidlog.git
+git clone git@github.com:MirageTurtle/squid2radius.git
 ```
 
 Usage for Radius
